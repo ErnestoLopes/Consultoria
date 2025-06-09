@@ -26,6 +26,14 @@
 justify-content: center;
 position: relative;
 }
+
+@media (max-width: 700px) {
+  #dados {
+    width: 95%;
+    min-width: 0;
+    padding: 10px;
+  }
+}
 #btn{color: white;
 background-color: #1bd1f1;
 border-color: #1bd1f1;
