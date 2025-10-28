@@ -26,6 +26,7 @@
 justify-content: center;
 position: relative;
 flex-direction: column;
+border-radius:30px;
 }
 
 @media (max-width: 700px) {
@@ -39,7 +40,9 @@ flex-direction: column;
 background-color: #1bd1f1;
 border-color: #1bd1f1;
 padding: 5px;
-border-radius: 20px;
+border-radius: 5px;
+align-items: center;
+justify-content: center;
  /* Espaço entre o input e o botão */
   border: none;
   cursor: pointer;}
@@ -1929,6 +1932,3 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
